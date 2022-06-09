@@ -24,6 +24,7 @@ public class CountryController {
 	@Autowired
 	CountryService service;
 	
+	//country
 	@RequestMapping(value="/country",method=RequestMethod.GET)
 	public Country getCountryIndia()
 	{
@@ -34,6 +35,7 @@ public class CountryController {
 		return country;
 	}
 	
+	//countries
 	@GetMapping("/countries")
 	public List<Country> getAllCountries()
 	{
