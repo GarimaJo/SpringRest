@@ -24,6 +24,7 @@ public class CountryController {
 	@Autowired
 	CountryService service;
 	
+	//comment
 	@RequestMapping(value="/country",method=RequestMethod.GET)
 	public Country getCountryIndia()
 	{
